@@ -1,0 +1,24 @@
+{
+  "name": "sass_tomorrow_house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node-sass": "node-sass",
+    "sass": "node-sass -w styles/main.scss ./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsrb0504/sass_tomorrow_house.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alsrb0504/sass_tomorrow_house/issues"
+  },
+  "homepage": "https://github.com/alsrb0504/sass_tomorrow_house#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
