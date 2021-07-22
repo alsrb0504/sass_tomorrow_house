@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "node-sass": "node-sass",
-    "sass": "node-sass -w -r styles/main.scss ./style.css"
+    "sass": "node-sass -wr --source-map true styles/main.scss ./style.css"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,12 @@
   "homepage": "https://github.com/alsrb0504/sass_tomorrow_house#readme",
   "dependencies": {
     "node-sass": "^6.0.1"
+  },
+  "devDependencies": {
+    "sass-lint": "^1.13.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recess-order": "^2.4.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-scss": "^3.20.1"
   }
 }
