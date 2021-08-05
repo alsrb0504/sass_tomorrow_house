@@ -1,0 +1,11 @@
+.product-carousel {
+  &-thumnbnail {
+    display: none;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
